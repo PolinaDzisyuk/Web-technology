@@ -82,7 +82,6 @@ function getCharacterModal(character) {
  * получим информацию о персонажах с API
  */
 async function fetchCharacters() {
-    // TODO 1
     const response = await fetch('https://jsfree-les-3-api.onrender.com/characters');
     const characters = await response.json();
     return characters;
@@ -96,7 +95,6 @@ async function fetchCharacters() {
  * @returns {Array}
  */
 function getCharacterCards(characters) {
-    // TODO 2
     let cards = [];
     for (let i = 0; i < characters.length; i++) {
         let card = getCharacterCard(characters[i]);
@@ -112,7 +110,6 @@ function getCharacterCards(characters) {
  * @returns {Array}
  */
 function getCharacterModals(characters) {
-    // TODO 3
     let modals = [];
     for (let i = 0; i < characters.length; i++) {
         let modal = getCharacterModal(characters[i]);
