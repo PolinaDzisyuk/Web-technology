@@ -1,0 +1,7 @@
+![Слайд 1](frontend/src/components/img/image-4.png)
+![Слайд 2](frontend/src/components/img/image-1.png)
+![Слайд 3](frontend/src/components/img/image-2.png)
+![Слайд 4](frontend/src/components/img/image-3.png)
+![Слайд 5](frontend/src/components/img/image-5.png)
+![Слайд 6](frontend/src/components/img/image-6.png)
+![Слайд 7](frontend/src/components/img/image-7.png)
